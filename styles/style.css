@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+	height: calc(100vh - 70px);
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+.footer {
+  height: 70px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+.my-foto{
+	height: 70vh;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+}
+.my-image{
+	height:25vh;
+}
